@@ -2,7 +2,7 @@
 {
     "variables":
     {
-        "font_face": "Tahoma",
+        "font_face": "Arial",
         "font_size_sm": 11,
         "font_size": 11,
         "font_size_lg": 13,
