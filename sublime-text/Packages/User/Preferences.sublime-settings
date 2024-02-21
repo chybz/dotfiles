@@ -1,0 +1,62 @@
+{
+	"binary_file_patterns":
+	[
+		"build/**",
+		"ext/**",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"overlay_scroll_bars": "disabled",
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Schemes/Chybz.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".cbuild",
+		".venv"
+	],
+	"font_face": "PragmataPro",
+	"font_options":
+	[
+		"no_bold",
+		"no_antialias",
+		"no_round"
+	],
+	"theme_font_options":
+	[
+		//"gray_antiaxlias"
+	],
+	"font_size": 14,
+	"hide_disclosure_buttons": true,
+	"ignored_packages":
+	[
+		"RestructuredText",
+		"Vintage",
+	],
+	"rulers":
+	[
+		100
+	],
+	"scroll_past_end": true,
+	"tab_completion": false,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"index_files": true,
+}

@@ -1,0 +1,20 @@
+[
+    { "keys": [ "tab" ], "command": "reindent" },
+    {
+        "keys": [ "ctrl+r" ],
+        "command": "show_overlay",
+        "args": { "overlay": "goto", "text": "@" }
+    },
+    {
+        "keys": [ "ctrl+g" ],
+        "command": "show_overlay",
+        "args": { "overlay": "goto", "text": ":" }
+    },
+    { "keys": ["ctrl+shift+a"], "command": "select_all" },
+    { "keys": [ "super+alt+s" ], "command": "save_all" },
+    {
+        "keys": [ "ctrl+shift+tab" ],
+        "command": "insert",
+        "args": { "characters": "\t" }
+    },
+]

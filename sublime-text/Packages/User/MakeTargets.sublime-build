@@ -1,0 +1,29 @@
+{
+  "selector": "source.makefile", 
+  "target": "make_targets", 
+  "file_regex": "^(..[^:\n]*):([0-9]+):?([0-9]+)?:? (.*)", 
+  "syntax": "Packages/Makefile/Make Output.sublime-syntax", 
+  "variants": [
+    {
+			"make_target": "@awk 'BEGIN {FS = \"",
+			"name": "@awk 'BEGIN {FS = \"",
+		},
+    {
+			"make_target": "help",
+			"name": "help",
+		},
+    {
+			"make_target": "install",
+			"name": "install",
+		},
+  ], 
+  "keyfiles": [
+    "Makefile", 
+    "makefile"
+  ], 
+  "cancel": {
+    "kill": true,
+  }, 
+  "working_dir": "${folder:${project_path:${file_path}}}", 
+  "makefile": "/Users/chybz/dev/avatar/platform/api/Makefile",
+}

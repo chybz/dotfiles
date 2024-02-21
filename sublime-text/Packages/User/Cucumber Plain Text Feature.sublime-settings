@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Cucumber Plain Text Feature syntax
+{
+    "word_wrap": false
+}

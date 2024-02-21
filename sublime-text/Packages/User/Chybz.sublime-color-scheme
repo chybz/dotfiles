@@ -1,0 +1,5 @@
+{
+  "globals": {
+    "popup_css": "* {\n    font-family: \"PragmataPro\";\n    font-size: 1rem;\n    font-style: normal;\n    font-weight: normal;\n    text-decoration: none;\n}"
+  }
+}
